@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Your prediction app</title>
+    </head>
+
+    <body>
+        <form name="form", method="POST", style="text-align: center;">
+            <br>
+            start date<br><input type="datetime-local" name="start date",placeholder="Enter date in mm/dd/yyyy" required/>
+            <br><br>
+             End date:<br><input type="datetime-local" name="end date", placeholder="Enter date in mm/dd/yyyy" required/>
+            <br><br>
+            <button value="predict">predict</button>
+        </form>
+        <p style="text-align: center;">{{ output }}</p>
+    </body>
+</html>
